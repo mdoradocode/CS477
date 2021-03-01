@@ -1,4 +1,5 @@
 //This function takes in an array and returns the first index matching the largest element using a divide and conquer stratagey
+//For ease of use, in terminal type make, then ./problem2
 //Michael Dorado
 //CS 477
 //2/27/2021

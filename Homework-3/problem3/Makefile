@@ -1,7 +1,7 @@
-TARGET = problem2
+TARGET = problem3
 LIBS = -lm  #List of external libraries required to link against (here m is the math Library, just a placeholder)
 HEADERS =  #List of all header files
-SRCS = problem2.cpp #List of all source files
+SRCS = problem3.cpp#List of all source files
 OBJECTS := $(patsubst %.cpp,%.o,$(SRCS))  #Creates a list of object files (.o) for every entry under SRCS (source files)
 CXX = g++ #compiler command to be used
 CXX_FLAGS = -Wall -std=c++11 #compilation flags to be used (here std=c++11 is just for reference, not necessary)
